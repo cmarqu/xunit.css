@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="xunit.css"?>
+
+<testsuites>
+  <testsuite name="The Testsuite Name" tests="1" errors="1" failures="0" skipped="0" time="123.456">
+    <properties>
+      <property name="property name 1" value="property value 1"/>
+      <property name="property name 2" value="property value 2"/>
+    </properties>
+    <testcase name="The Testcase Name" time="123.456">
+      <error>Error text</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="The Testsuite Name 2" tests="1" errors="1" failures="0" skipped="0" time="100.0">
+    <properties>
+      <property name="property name 1" value="property value 1"/>
+      <property name="property name 2" value="property value 2"/>
+    </properties>
+    <testcase name="The Testcase Name 1" time="60.0">
+      <error>Error text 1</error>
+    </testcase>
+    <testcase name="The Testcase Name 2" time="40.0">
+      <error>Error text 2</error>
+    </testcase>
+  </testsuite>
+</testsuites>
